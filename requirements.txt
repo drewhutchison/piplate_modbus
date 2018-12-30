@@ -1,0 +1,2 @@
+pi-plates==4.1
+pymodbus==2.1.0
