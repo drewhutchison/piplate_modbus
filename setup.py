@@ -12,6 +12,7 @@ setup(
     packages=['piplate_modbus'],
     install_requires=[
         'pi-plates==4.1',
+        'spidev==3.2',  # unspecified dep for pi-plates
         'pymodbus>=2.0.0'
     ],
     classifiers=[
