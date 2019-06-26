@@ -22,6 +22,7 @@ to install, after which you'll have access to the piplate_modbus module.
 Example usage is provided in ``main.py`` in the project root directory, which
 can be run with optional ``host`` and ``port`` arguments to set up a modbus
 TCP server.
+The user running this will need gpio and spi permissions.
 
 After that, ``pymodbus.console tcp --host <host>`` should connect you to the
 server, as verified by its ``client.connect`` returning true.
